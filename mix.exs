@@ -1,7 +1,7 @@
 defmodule ExAws.ECS.Mixfile do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
   @url "https://github.com/davepersing/ex_aws_ecs"
   @maintainers [
     "Dave Persing"
@@ -10,8 +10,8 @@ defmodule ExAws.ECS.Mixfile do
   def project do
     [
       name: "ExAws.ECS",
-      app: :ex_aws_code_build,
-      version: "0.1.0",
+      app: :ex_aws_ecs,
+      version: @version,
       elixir: "~> 1.5",
       elixirc_paths: elixirc_paths(Mix.env()),
       package: package(),
