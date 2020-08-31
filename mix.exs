@@ -1,7 +1,7 @@
 defmodule ExAws.ECS.Mixfile do
   use Mix.Project
 
-  @version "0.1.1"
+  @version "0.1.2"
   @url "https://github.com/davepersing/ex_aws_ecs"
   @maintainers [
     "Dave Persing"
